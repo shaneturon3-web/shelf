@@ -1,0 +1,35 @@
+# Private or raw exports
+*.secret
+*.secrets
+*.key
+*.pem
+*.p12
+*.pfx
+*.kdbx
+*.sqlite
+*.sqlite3
+*.db
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.age
+*.gpg
+
+# Session exports should be sanitized before committing
+sessions/raw/
+sessions/private/
+ChatGPT-exports/
+Codex-exports/
+
+# Local draft sync material
+ShelfDrafts/
+vault/
+vaults/
+.local-vault/
+
+# System/editor noise
+.DS_Store
+__pycache__/
+*.pyc
