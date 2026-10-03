@@ -70,3 +70,10 @@ and rollback target, local validation, and greenfield validation.
 The list was recovered from the deleted TOM branch's capability canvas and
 registry history. The current canonical home is Shelf. The deleted branch is
 not a source of authority; this file is a reconstructed derived inventory.
+
+## Experimental implementation
+
+The four eligible candidates now have separate self-contained skills in
+`experimental-skills/`: the first two are global operators and the second two
+are TOM/editorial operators. Separate directories allow independent activation
+tests without implying final promotion.
