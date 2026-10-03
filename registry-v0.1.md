@@ -9,3 +9,7 @@ The second chat-scan harvest is preserved in [`seedbank/HARVEST-INVENTORY-CHAT-S
 
 This registry is intentionally separate from TOM manuscripts, local caches, and account-registered
 plugins. Each candidate has one owner, one job, and an explicit lifecycle state.
+
+The four second-pass experimental skills are bundled in
+[`plugins/shane-experimental-operators`](plugins/shane-experimental-operators). The bundle is
+private and experimental; each skill remains independently activatable.

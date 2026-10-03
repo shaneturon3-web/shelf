@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "shane-experimental-operators",
+  "version": "0.1.0",
+  "description": "Experimental global and TOM editorial operators for controlled activation tests.",
+  "author": { "name": "Shane Turon" },
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Shane Experimental Operators",
+        "shortDescription": "Experimental cognitive operators",
+        "longDescription": "A single experimental plugin containing four independently activatable skills: two global extraction/transfer operators and two TOM editorial operators. Use it for bounded tests and record mutations before promotion.",
+        "developerName": "Shane Turon",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": "Use only the experimental operator relevant to the task, preserve provenance, record mutations, and mark the result experimental."
+      }
+    }
+  }
+}

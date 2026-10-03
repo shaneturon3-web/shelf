@@ -25,6 +25,15 @@ harvest:
       commit: e72cc24
       meaning: Shane Cognitive Mesh local plugin manifest was already integrated
   note: This entry reconciles previously promoted and published skills; it is not a second promotion.
+experimental_bundle:
+  package: shane-experimental-operators
+  version: 0.1.0
+  plugin_id: plugins_6ac077700c80819183a8fd3da07c1029
+  release_id: pluginrel_6ac07770a3c88191b2263d3ecd32fb22
+  scope: USER
+  discoverability: PRIVATE
+  status: experimental
+  activation: individual skills inside one plugin
 seeds:
   - id: cognitive-plugin-extractor
     owner: Shane Turon
