@@ -13,7 +13,18 @@ harvest:
   scope: USER
   discoverability: PRIVATE
   local_installation: false
-  note: Six harvested skills are packaged together; no duplicate per-skill account plugins were created.
+  reconciliation: already-promoted
+  prior_records:
+    - repository: the-order-matters
+      commit: 5109b19
+      meaning: project-management-control was already promoted
+    - repository: the-order-matters
+      commit: 3275fac
+      meaning: cognitive extractor prototype was already promoted
+    - repository: the-order-matters
+      commit: e72cc24
+      meaning: Shane Cognitive Mesh local plugin manifest was already integrated
+  note: This entry reconciles previously promoted and published skills; it is not a second promotion.
 seeds:
   - id: cognitive-plugin-extractor
     owner: Shane Turon
@@ -21,7 +32,7 @@ seeds:
     source_records:
       - TOM extraction ledger
       - rare extraction ledger
-    status: promoted
+    status: already-promoted
     installed: false
     plugin_candidate: shane-cognitive-mesh
   - id: project-management-control
@@ -29,7 +40,7 @@ seeds:
     job: Control evidence gates, provenance, scope, state, and reversible project transitions.
     source_records:
       - PM control update
-    status: promoted
+    status: already-promoted
     installed: false
     plugin_candidate: shane-cognitive-mesh
   - id: petina-humor-engine
@@ -37,7 +48,7 @@ seeds:
     job: Reconstruct and apply the humor mechanism without reducing it to tone alone.
     source_records:
       - Retropig edge extraction
-    status: promoted
+    status: already-promoted
     installed: false
     plugin_candidate: shane-cognitive-mesh
   - id: editorial-engine
@@ -45,7 +56,7 @@ seeds:
     job: Preserve editorial authority, payload, order, proximity, rhythm, and correction boundaries.
     source_records:
       - TOM layered comparison
-    status: promoted
+    status: already-promoted
     installed: false
     plugin_candidate: shane-cognitive-mesh
   - id: negative-space-observatory
@@ -54,7 +65,7 @@ seeds:
     source_records:
       - Topological speciation extraction
       - Extraction repair extraction
-    status: promoted
+    status: already-promoted
     installed: false
     plugin_candidate: shane-cognitive-mesh
   - id: shane-cognitive-architecture
@@ -62,6 +73,6 @@ seeds:
     job: Coordinate Core, Kernel, Halo, and specialist routing without collapsing ownership boundaries.
     source_records:
       - Core-Kernel-Halo extraction
-    status: promoted
+    status: already-promoted
     installed: false
     plugin_candidate: shane-cognitive-mesh
