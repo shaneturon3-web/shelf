@@ -1,0 +1,58 @@
+schema: seedbank-v0.1
+owner: Shane Turon
+canonical_source: shelf/seedbank
+installation_targets:
+  local_skills: /home/shane/.codex/skills
+  local_plugins: /home/shane/.agents/plugins
+  account_plugins: Plugin Creator private account registration
+seeds:
+  - id: cognitive-plugin-extractor
+    owner: Shane Turon
+    job: Extract rare operators, graph relations, mechanism families, and promotion candidates from bounded corpora.
+    source_records:
+      - TOM extraction ledger
+      - rare extraction ledger
+    status: test-ready
+    installed: false
+    plugin_candidate: shane-cognitive-mesh
+  - id: project-management-control
+    owner: Shane Turon
+    job: Control evidence gates, provenance, scope, state, and reversible project transitions.
+    source_records:
+      - PM control update
+    status: test-ready
+    installed: false
+    plugin_candidate: shane-cognitive-mesh
+  - id: petina-humor-engine
+    owner: Shane Turon
+    job: Reconstruct and apply the humor mechanism without reducing it to tone alone.
+    source_records:
+      - Retropig edge extraction
+    status: captured
+    installed: false
+    plugin_candidate: shane-cognitive-mesh
+  - id: editorial-engine
+    owner: Shane Turon
+    job: Preserve editorial authority, payload, order, proximity, rhythm, and correction boundaries.
+    source_records:
+      - TOM layered comparison
+    status: captured
+    installed: false
+    plugin_candidate: shane-cognitive-mesh
+  - id: negative-space-observatory
+    owner: Shane Turon
+    job: Track omissions, voids, mismatches, and unresolved alternatives as first-class evidence.
+    source_records:
+      - Topological speciation extraction
+      - Extraction repair extraction
+    status: captured
+    installed: false
+    plugin_candidate: shane-cognitive-mesh
+  - id: shane-cognitive-architecture
+    owner: Shane Turon
+    job: Coordinate Core, Kernel, Halo, and specialist routing without collapsing ownership boundaries.
+    source_records:
+      - Core-Kernel-Halo extraction
+    status: captured
+    installed: false
+    plugin_candidate: shane-cognitive-mesh
